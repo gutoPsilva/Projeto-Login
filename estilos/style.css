@@ -111,3 +111,22 @@ div.button{
     border-color: var(--segCor);
     color: #FFFFFF;
 }
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    font: italic bold 1.4em arial;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
