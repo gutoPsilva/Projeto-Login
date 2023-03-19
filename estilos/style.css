@@ -3,21 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
-
 /* 
 Mobile First 
 font-family: 'Bebas Neue', cursive;
-
 */
 
 :root{
-    --degradeC1: #0f0c29;
-    --degradeC2: #302b63;
-    --degradeC3: #24243e;
+    --priCor: #0f0c29;
+    --segCor: #302b63;
+    --terCor: #24243e;
 }
 
 *{
@@ -29,21 +23,22 @@ html{
     height: 100vh;
     font-family: 'Arimo', sans-serif;
     font-weight: normal;
-    background: var(--degradeC1)
+    background-color: var(--priCor);
 }
 
 main{
-    width: 300px;
+    width: 250px;
     margin: auto;
     margin-top: 90px;
     background-color: #FFFFFF;
     border-radius: 30px 30px 15px 15px; /* pra esconder aresta sobresaindo da img*/
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.747);
 }
 
 section#sectionBack{
-    background: black url(../images/background.jpg) center center no-repeat;
+    background: black url(../images/background1.jpg) center center no-repeat;
     background-size: cover;
-    width: 300px;
+    width: 250px;
     height: 200px;
     border-radius: 15px 15px 0px 0px;
 }
@@ -65,7 +60,7 @@ section > p {
 
 div.entradaTxt{
     color: white;
-    background-color: var(--degradeC2);
+    background-color: var(--segCor);
     margin: 5px auto;
     padding: 5px;
     border-radius: 5px;
@@ -79,7 +74,8 @@ span{
 input.input{
     padding: 10px;
     border-radius: 5px;
-    width: 216px;
+    width: 76%;
+    border-style: none;
 }
 
 div.button{
@@ -90,19 +86,28 @@ div.button{
 #btnLog{
     padding: 15px;
     color: #FFFFFF;
-    background: #0f0c29;
+    background: var(--priCor);
     border-radius: 5px;
     border-style: none;
+    width: 100%;
+}
+
+#btnLog:hover{
+    background-color: var(--segCor);
 }
 
 #btnEsq{
     padding: 15px;
-    color: #FFFFFF;
-    background: #0f0c29;
+    color: var(--priCor);
+    background: #FFFFFF;
     border-radius: 5px;
     border-style: none;
+    width: 100%;
+    border: 2px solid var(--priCor);
 }
 
-#btnLog:hover{
-    
+#btnEsq:hover{
+    background-color: var(--segCor);
+    border-color: var(--segCor);
+    color: #FFFFFF;
 }
