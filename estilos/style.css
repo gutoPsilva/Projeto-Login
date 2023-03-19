@@ -27,24 +27,34 @@ html{
 }
 
 #login{
-    width: 250px;
-    margin: auto;
-    margin-top: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    width: 300px;
+    height: 500px;
     background-color: #FFFFFF;
     border-radius: 30px 30px 15px 15px; /* pra esconder aresta sobresaindo da img*/
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.747);
+
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 #sectionBack{
     background: black url(../images/background1.jpg) center center no-repeat;
     background-size: cover;
-    width: 250px;
-    height: 200px;
+    width: 100%;
+    height: 175px;
     border-radius: 15px 15px 0px 0px;
+    display: block;
 }
 
 #sectionForm{
     padding: 10px;
+    display: block;
 }
 
 h1{
@@ -52,7 +62,7 @@ h1{
     font: normal normal 2em 'Bebas Neue', cursive;
 }
 
-section > p {
+div > p {
     text-align: justify;
     margin-top: 10px;
     line-height: 1.15em;
@@ -74,8 +84,8 @@ span{
 .input{
     padding: 10px;
     border-radius: 5px;
-    width: 76%;
     border-style: none;
+    width: 82%;
 }
 
 .button{
@@ -94,6 +104,7 @@ span{
 
 #btnLog:hover{
     background-color: var(--segCor);
+    cursor: pointer;
 }
 
 #btnEsq{
@@ -110,11 +121,17 @@ span{
     background-color: var(--segCor);
     border-color: var(--segCor);
     color: #FFFFFF;
+    cursor: pointer;
 }
 
-footer{
+/* footer{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+
     text-align: center;
-    margin: 30px;
+    margin-top: 10px;
     font: italic bold 1.4em arial;
 }
 
@@ -130,3 +147,4 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
+*/
