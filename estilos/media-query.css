@@ -2,13 +2,11 @@
 
 /* TABLET */
 @media screen and (min-width: 769px) and (max-width:992px) {
-    body{
-        background-image: linear-gradient(to bottom, var(--priCor), var(--segCor), var(--terCor));
-    }
+    body{background-image: linear-gradient(to bottom, var(--priCor), var(--segCor), var(--terCor));}
 
     section#login{
         width: 90vw;
-        height: 400px;
+        height: 380px;
         border-radius: 15px;
         padding-bottom: 0px;
     }
@@ -25,9 +23,7 @@
         width: 57%;
     }
 
-    div > h1{
-        font-size: 2.5em;
-    }
+    div > h1{font-size: 2.5em;}
 
     div > p {
         line-height: 1.4em;
@@ -35,19 +31,15 @@
         text-align: justify;
     }
 
-    .input{
-        width: 85%;
-    }
+    .input{width: 92%;}
 }
 
 @media screen and (min-width:993px) {
-    body{
-        background-image: linear-gradient(to bottom, var(--priCor), var(--segCor), var(--terCor));
-    }
+    body{background-image: linear-gradient(to bottom, var(--priCor), var(--segCor), var(--terCor));}
 
     section#login{
         width: 950px;
-        height: 500px;
+        height: 400px;
         border-radius: 15px;
         padding-bottom: 0px;
     }
@@ -65,8 +57,9 @@
     }
 
     div > h1{
-        font-size: 3.5em;
-    }
+        font-size: 2.5em;
+        margin-top: 8px;
+}
 
     div > p {
         line-height: 1.1em;
@@ -75,7 +68,5 @@
         text-align: justify;
     }
 
-    .input{
-        width: 88%;
-    }
+    .input{width: 93%;}
 }
