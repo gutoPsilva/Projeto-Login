@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* 
+Mobile First 
+font-family: 'Bebas Neue', cursive;
+
+*/
+
+:root{
+    --degradeC1: #0f0c29;
+    --degradeC2: #302b63;
+    --degradeC3: #24243e;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    height: 100vh;
+    font-family: 'Arimo', sans-serif;
+    font-weight: normal;
+    background: var(--degradeC1)
+}
+
+main{
+    width: 300px;
+    margin: auto;
+    margin-top: 90px;
+    background-color: #FFFFFF;
+    border-radius: 30px 30px 15px 15px; /* pra esconder aresta sobresaindo da img*/
+}
+
+section#sectionBack{
+    background: black url(../images/background.jpg) center center no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+section#sectionForm{
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    font: normal normal 2em 'Bebas Neue', cursive;
+}
+
+section > p {
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 1.15em;
+}
+
+div.entradaTxt{
+    color: white;
+    background-color: var(--degradeC2);
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+span{
+    position: relative;
+    top: 8px;
+}
+
+input.input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 216px;
+}
+
+div.button{
+    margin: 5px auto;
+    text-align: center;
+}
+
+#btnLog{
+    padding: 15px;
+    color: #FFFFFF;
+    background: #0f0c29;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#btnEsq{
+    padding: 15px;
+    color: #FFFFFF;
+    background: #0f0c29;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#btnLog:hover{
+    
+}
