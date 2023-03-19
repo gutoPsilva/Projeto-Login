@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+.material-icons.md-20 { font-size: 20px; }
+
 /* 
 Mobile First 
 font-family: 'Bebas Neue', cursive;
@@ -17,12 +19,16 @@ font-family: 'Bebas Neue', cursive;
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 html{
     height: 100vh;
     font-family: 'Arimo', sans-serif;
     font-weight: normal;
+}
+
+body{
     background-color: var(--priCor);
 }
 
@@ -34,9 +40,9 @@ html{
     overflow: hidden;
 
     width: 300px;
-    height: 500px;
+    height: 530px;
     background-color: #FFFFFF;
-    border-radius: 30px 30px 15px 15px; /* pra esconder aresta sobresaindo da img*/
+    border-radius: 15px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.747);
 
     transition: width .5s, height .5s;
@@ -48,7 +54,6 @@ html{
     background-size: cover;
     width: 100%;
     height: 175px;
-    border-radius: 15px 15px 0px 0px;
     display: block;
 }
 
@@ -62,10 +67,15 @@ h1{
     font: normal normal 2em 'Bebas Neue', cursive;
 }
 
-div > p {
+#sectionForm > p {
     text-align: justify;
     margin-top: 10px;
     line-height: 1.15em;
+}
+
+span{
+    position: relative;
+    top: 8px;
 }
 
 .entradaTxt{
@@ -76,21 +86,12 @@ div > p {
     border-radius: 5px;
 }
 
-span{
-    position: relative;
-    top: 8px;
-}
 
 .input{
     padding: 10px;
     border-radius: 5px;
     border-style: none;
     width: 82%;
-}
-
-.button{
-    margin: 5px auto;
-    text-align: center;
 }
 
 #btnLog{
@@ -107,29 +108,33 @@ span{
     cursor: pointer;
 }
 
-#btnEsq{
-    padding: 15px;
+#esq{
+    margin-top: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
     color: var(--priCor);
     background: #FFFFFF;
     border-radius: 5px;
     border-style: none;
     width: 100%;
     border: 2px solid var(--priCor);
+    display: block;
 }
 
-#btnEsq:hover{
+#esq:hover{
     background-color: var(--segCor);
     border-color: var(--segCor);
     color: #FFFFFF;
     cursor: pointer;
 }
 
-/* footer{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-90%, -50%);
+span#spanEm{
+    position: relative;
+    top: 4px;
+}
 
+footer{
     text-align: center;
     margin-top: 10px;
     font: italic bold 1.4em arial;
@@ -147,4 +152,3 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
-*/
