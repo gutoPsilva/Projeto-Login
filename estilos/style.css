@@ -26,7 +26,7 @@ html{
     background-color: var(--priCor);
 }
 
-main{
+section#login{
     width: 250px;
     margin: auto;
     margin-top: 70px;
@@ -35,7 +35,7 @@ main{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.747);
 }
 
-section#sectionBack{
+#sectionBack{
     background: black url(../images/background1.jpg) center center no-repeat;
     background-size: cover;
     width: 250px;
@@ -43,7 +43,7 @@ section#sectionBack{
     border-radius: 15px 15px 0px 0px;
 }
 
-section#sectionForm{
+#sectionForm{
     padding: 10px;
 }
 

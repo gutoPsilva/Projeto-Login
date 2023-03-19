@@ -6,11 +6,11 @@
         background-image: linear-gradient(to bottom, var(--priCor), var(--segCor), var(--terCor));
     }
 
-    main{
+    section#login{
         width: 700px;
     }
 
-    section#sectionBack{
+    #sectionBack{
         width: 700px;
         background-position: top center;
     }
