@@ -1,2 +1,5 @@
 # Projeto Login
- Projeto do CursoemVideo para um login. Apenas HTML, CSS e bem pouco de JS.
+Projeto Básico utilizando HTML e CSS.
+Foco na utilização dos MQ's.
+
+Posteriormente JS será inserido.
