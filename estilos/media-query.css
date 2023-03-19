@@ -14,4 +14,8 @@
         width: 700px;
         background-position: top center;
     }
+
+    .input{
+        width: 92%;
+    }
 }
