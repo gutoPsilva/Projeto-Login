@@ -70,3 +70,15 @@
 
     .input{width: 93%;}
 }
+
+
+/* MQ para esconder o FOOTER que é sobreposto pelo forms, e dimensionar o tamanho do forms pra 100da VW, já que não há mais footer*/
+@media screen and (max-height: 575px) {
+    footer a{
+        display: none;
+    }
+    
+    main.container{
+        height: 100vh;
+    }
+}
